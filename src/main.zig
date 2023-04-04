@@ -7,6 +7,7 @@ pub const style = @import("style.zig");
 pub const utils = @import("utils.zig");
 pub const term = @import("term.zig");
 pub const events = @import("event.zig");
+pub const private = @import("private.zig");
 
 test {
     std.testing.refAllDecls(@This());
